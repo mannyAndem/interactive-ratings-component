@@ -1,0 +1,52 @@
+body {
+  background: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.custom-card {
+  background: hsl(213, 19%, 18%);
+}
+.custom-medium-gray {
+  color: hsl(216, 12%, 54%);
+}
+.custom-light-gray {
+  color: hsl(217, 12%, 63%);
+}
+.custom-bg-medium-gray {
+  background: hsl(216, 12%, 54%, 0.1);
+}
+.custom-circle-sm {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 300ms linear;
+}
+.custom-circle-sm:hover {
+  background-color: hsl(216, 12%, 54%);
+}
+.custom-circle-star {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.custom-submit-btn {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  transition: all 300ms linear;
+}
+.custom-submit-btn:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+.custom-orange {
+  color: hsl(25, 97%, 53%);
+}
+.custom-font-400 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+.custom-font-700 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
